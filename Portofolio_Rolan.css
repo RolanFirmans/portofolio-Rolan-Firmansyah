@@ -35,13 +35,12 @@
     list-style: none;
     display: flex;
     margin-right: -100%;
-    
 
   }
   
   .nav-list li {
     margin-right: 20px;
-    
+
   }
   
   .nav-list a {
