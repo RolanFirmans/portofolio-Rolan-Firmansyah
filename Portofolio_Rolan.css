@@ -244,13 +244,14 @@
 .skills{
   background-color: #013c66;
 }
-.section-title{
+
+.title{
   margin-bottom: 100px;
   text-align: center;
   color: #ffffff;
 }
 
-.skills-grid{
+.grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 3rem;
@@ -261,18 +262,18 @@
   gap: 2rem;
 }
 
-.education .line  {
+.line  {
   padding: 0 0.7rem;
 }
 
-.education .line div{
+.line div{
   width: 2px;
   height: 100%;
   background-color: #00abf0;
   position: relative;
 }
 
-.education-info {
+.info {
   color: #ffffff;
 }
 
@@ -292,16 +293,16 @@
   left: -6px;
 }
 
-.skills-list{
+.list{
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin-top: 1.5rem;
 }
 
-.skills-right{
+.right{
   color: #fff;
 }
-.skills-right ul{
+.right ul{
   line-height: 2rem;
   padding: 0 1rem;
   
