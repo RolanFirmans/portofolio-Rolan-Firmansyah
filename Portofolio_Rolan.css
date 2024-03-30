@@ -116,6 +116,7 @@
     padding-bottom: 80px;
     font-size: 40px;
     color: #ffffff;
+    background-color: #013c66;
 }
 .home-content{
     max-width: 450px;
@@ -187,6 +188,7 @@
   padding: 40px 0;
   font-size: 40px;
   color: #ffffff;
+  background-color: #03426e;
 }
 
 .Project{ 
@@ -244,14 +246,13 @@
 .skills{
   background-color: #013c66;
 }
-
-.title{
+.section-title{
   margin-bottom: 100px;
   text-align: center;
   color: #ffffff;
 }
 
-.grid{
+.skills-grid{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   gap: 3rem;
@@ -262,18 +263,18 @@
   gap: 2rem;
 }
 
-.line  {
+.education .line  {
   padding: 0 0.7rem;
 }
 
-.line div{
+.education .line div{
   width: 2px;
   height: 100%;
   background-color: #00abf0;
   position: relative;
 }
 
-.info {
+.education-info {
   color: #ffffff;
 }
 
@@ -308,3 +309,26 @@
   
 }
 /* Education End */
+
+/* Media Screen */
+
+@media screen and (max-width: 1000px) {
+  p {
+    font-size: .20rem;
+    line-height: 1.8rem;
+  }
+
+  .cardb{
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 825px) {
+  
+  
+}
+
+@media screen and (max-width: 640px) {
+  
+}
+  
