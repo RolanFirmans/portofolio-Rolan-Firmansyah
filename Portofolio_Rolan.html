@@ -19,19 +19,38 @@
   </head>
   <body>
     <!-- Navbar Start -->
-    <header class="header">
-      <nav class="navbar">
-        <div class="container">
-          <h2>ROLAN FIRMANSYAH</h2>
-          <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#Aboutus">About Us</a></li>
-            <li><a href="#project">Project</a></li>
-            <li><a href="#skills">Skills</a></li>
-          </ul>
-        </div>
+    <header>
+      <div class="logo">RF</div>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <nav class="nav-bar">
+        <ul>
+          <li>
+            <a href="#home" class="active">Home</a>
+          </li>
+          <li>
+            <a href="#Aboutus">About Us</a>
+          </li>
+          <li>
+            <a href="#project">Project</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+        </ul>
       </nav>
     </header>
+
+    <script>
+     hamburger = document.querySelector(".hamburger");
+     hamburger.onclick = function(){
+      navBar = document.querySelector(".nav-bar");
+      navBar.classList.toggle("active");
+     }
+    </script>
     <!-- Navbar End -->
 
     <!-- Home Start -->
